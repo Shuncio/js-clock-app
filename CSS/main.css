@@ -1,0 +1,51 @@
+/* removes default <a> styling */
+a, a:hover, a:active, a:focus{
+    color: #1f4478;
+    text-decoration: none;
+}
+
+body{
+    background-color: #bbcce5;
+    color: #1f4478;
+    font-family: 'Lato', sans-serif;
+    margin: 300px auto;
+}
+
+/* Flex hour container */
+.hour-flex-container{         
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-flow: row wrap;
+    font-size: 100px;
+    font-weight: 400;
+    justify-content: center;
+}
+/* ---------------------- */
+
+/* Flex footer container */
+.footer-flex-container{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    font-weight: 400;
+    justify-content: center;
+}
+/* ------------------------ */
+
+.heart-img{ 
+    height: 13px;
+    width: 14px;
+}
+
+.github-img{
+    height: 25px;
+    width: 25px;
+}
+
+
+/* mobile responsiveness */
+@media(max-width: 450px) { 
+    .actual-hour-container {font-size: 55px} 
+}

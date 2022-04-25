@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang='en' dir='ltr'>
+
+    <head>
+        <title>A simple JS clock</title>
+        
+        <!-- meta tags -->
+        <meta charset='utf-8'>
+        <meta nametag='description' content='A simple web clock made in JavaScript!'>
+        <meta nametag='keywords' content='clock, web clock, js clock, HTML5 clock, es6 clock'>
+        <meta name='viewport' content='width=device-width, inital-scale=1'>
+        
+        <!-- CSS stylesheets -->
+        <link rel='stylesheet' href='CSS/main.css'>
+
+        <!-- JS files -->
+        <script src='JS/main.js' defer></script>
+
+        <!-- Google fonts -->
+        <link rel='preconnect' href='https://fonts.googleapis.com'>
+        <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin>
+        <link href='https://fonts.googleapis.com/css2?family=Lato&display=swap' rel='stylesheet'>  
+    </head>
+
+    <body>
+        <!-- hour flex container -->
+        <div class='hour-flex-container'>
+
+            <!-- shows the actual hr, min and sec -->
+            <div class='hour'></div>
+                <span>:</span>
+            <div class='min'></div>
+                <span>:</span>
+            <div class='sec'></div> 
+            <!-- -------- --> 
+
+        </div>
+        <!-- -------------------- -->
+
+        <!-- footer flex container -->
+        <div class='footer-flex-container'>
+
+            <!-- footer signature -->
+            <p>Made with <img class='heart-img' src="img/heart.svg"> 
+                by <a href="https://www.github.com/Shuncio" target="_blank">Shuncio</a>
+            </p>
+
+            <!-- GitHub logo -->
+            <a href="https://www.github.com/Shuncio" target="_blank">
+                <img class='github-img' src="img/github-logo.svg">
+            </a>
+
+            <!-- shows the current year -->
+            <p class='p-curr-year'></p>
+
+        </div>
+        <!-- ------------------ -->
+    </body> 
+</html>
